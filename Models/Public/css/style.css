@@ -1,0 +1,23 @@
+.nav {
+  
+    background: none;
+    padding: 40px 20px;
+}
+.nav> a{
+    text-decoration: none;
+    background: none;
+     color: blue;
+    
+}
+.papeleria {
+    text-align: center;
+    border: 1px solid #1364A3;
+    line-height: 2.5em;
+    width: 80%;
+    height: 3rem;
+}
+.final {
+    text-align: center;
+    background: none;
+    padding: 15px;
+}

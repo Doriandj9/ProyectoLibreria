@@ -1,0 +1,10 @@
+#denny from all
+
+Options All -Indexes
+Options All -MultiViews
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^(.*)$ index.php?op=$1 [L]
